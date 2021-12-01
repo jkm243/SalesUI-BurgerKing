@@ -56,17 +56,6 @@ namespace SalesUI
             SidePanel.Top = button2.Top;
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            SidePanel.Top = button3.Top;
-            SidePanel.Height = button3.Height;
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            SidePanel.Top = button4.Top;
-            SidePanel.Height = button4.Height;
-        }
 
         private void button5_Click(object sender, EventArgs e)
         {
@@ -86,6 +75,12 @@ namespace SalesUI
         {
             SidePanel.Top = button7.Top;
             SidePanel.Height = button7.Height;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            DateTime thisDay = DateTime.Today;
+            label18.Text = thisDay.ToString("D");
         }
     }
 }

@@ -73,7 +73,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -274,7 +273,6 @@
             this.guna2GradientPanel2.Controls.Add(this.panel2);
             this.guna2GradientPanel2.Controls.Add(this.label15);
             this.guna2GradientPanel2.Controls.Add(this.label14);
-            this.guna2GradientPanel2.Controls.Add(this.label18);
             this.guna2GradientPanel2.Controls.Add(this.label17);
             this.guna2GradientPanel2.Controls.Add(this.label16);
             this.guna2GradientPanel2.Controls.Add(this.label13);
@@ -716,18 +714,6 @@
             this.label14.TabIndex = 0;
             this.label14.Text = "Income";
             // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.White;
-            this.label18.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.Gray;
-            this.label18.Location = new System.Drawing.Point(534, 5);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(159, 19);
-            this.label18.TabIndex = 0;
-            this.label18.Text = "02:33 pm 01 Aug 2021";
-            // 
             // label17
             // 
             this.label17.AutoSize = true;
@@ -885,7 +871,6 @@
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label13;
