@@ -56,6 +56,7 @@
             this.eat_In_UC2 = new SalesUI.Eat_In_UC();
             this.home_UC1 = new SalesUI.home_UC();
             this.label18 = new System.Windows.Forms.Label();
+            this.userCustomers1 = new SalesUI.userCustomers();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -359,6 +360,7 @@
             // 
             // eat_In_UC2
             // 
+            this.eat_In_UC2.BackColor = System.Drawing.Color.White;
             this.eat_In_UC2.Location = new System.Drawing.Point(206, 144);
             this.eat_In_UC2.Name = "eat_In_UC2";
             this.eat_In_UC2.Size = new System.Drawing.Size(772, 416);
@@ -383,12 +385,21 @@
             this.label18.TabIndex = 16;
             this.label18.Text = "02:33 pm 01 Aug 2021";
             // 
+            // userCustomers1
+            // 
+            this.userCustomers1.BackColor = System.Drawing.SystemColors.Control;
+            this.userCustomers1.Location = new System.Drawing.Point(206, 144);
+            this.userCustomers1.Name = "userCustomers1";
+            this.userCustomers1.Size = new System.Drawing.Size(772, 416);
+            this.userCustomers1.TabIndex = 17;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(978, 560);
+            this.Controls.Add(this.userCustomers1);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.home_UC1);
             this.Controls.Add(this.eat_In_UC2);
@@ -445,6 +456,7 @@
         private maps maps2;
         private home_UC home_UC1;
         private System.Windows.Forms.Label label18;
+        private userCustomers userCustomers1;
     }
 }
 

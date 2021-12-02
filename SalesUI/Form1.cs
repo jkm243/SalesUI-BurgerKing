@@ -29,7 +29,7 @@ namespace SalesUI
 
         private void button10_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://www.instagram.com/jacques_katsuva/");
+            System.Diagnostics.Process.Start("https://www.instagram.com/burgerking_russia//");
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -75,6 +75,7 @@ namespace SalesUI
         {
             SidePanel.Top = button7.Top;
             SidePanel.Height = button7.Height;
+            userCustomers1.BringToFront();
         }
 
         private void Form1_Load(object sender, EventArgs e)
