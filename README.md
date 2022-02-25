@@ -4,8 +4,8 @@
 
 ## Documentation
 
-*[Guna](https://gunaui.com/)
-*[GMap.NET](http://www.independent-software.com/gmap-net-beginners-tutorial-maps-markers-polygons-routes-updated-for-vs2015-and-gmap1-7.html)
+* [Guna](https://gunaui.com/)
+* [GMap.NET](http://www.independent-software.com/gmap-net-beginners-tutorial-maps-markers-polygons-routes-updated-for-vs2015-and-gmap1-7.html)
 
 
 ## Screenshots
